@@ -1,0 +1,500 @@
+yay -S gtk-engine-murrine
+yay -S colloid
+yay -S colloid-dracula-theme-git colloid-dracula-gtk-theme-git
+clear
+yay
+ping 8.8.8.8
+git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
+yay
+clear
+yay
+clear
+yay
+yay powerline
+ls .bash
+cat .bash
+ls
+ls -la
+vim
+yay vim
+yay neovim
+vim .bashrc 
+nvim .bashrc 
+nvim .bashrc
+touch .screenrc
+nvim poopoo
+sh ./poopoo
+sed -i '1i term screen-256color' ~/.screenrc
+nvim
+echo ". /usr/share/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
+nvim .bashrc
+yay
+yay
+mkdir .themes
+cd Downloads/
+tar -xvf Dracula.tar.xz 
+ls
+mv ./Dracula ../.themes/
+ls
+cd ../.themes/
+ls
+gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
+gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
+exit
+exit
+ /home/jobs/.mozilla/firefox/xdbxo8zx.default-release 
+cd  /home/jobs/.mozilla/firefox/xdbxo8zx.default-release 
+ls
+mkdir chrome
+ln -s /usr/lib/firefox-gnome-theme firefox-gnome-theme
+   ```sh
+   [[ -s userChrome.css ]] || echo >> userChrome.css
+   [[ -s userContent.css ]] || echo >> userContent.css
+   ```
+```sh
+   [[ -s userChrome.css ]] || echo >> userChrome.css
+   [[ -s userContent.css ]] || echo >> userContent.css
+   ```
+   [[ -s userChrome.css ]] || echo >> userChrome.css
+   [[ -s userContent.css ]] || echo >> userContent.css
+   sed -i '1s/^/@import "firefox-gnome-theme\/userChrome.css";\n/' userChrome.css
+   sed -i '1s/^/@import "firefox-gnome-theme\/userContent.css";\n/' userContent.css
+cd chrome/
+   [[ -s userChrome.css ]] || echo >> userChrome.css
+   [[ -s userContent.css ]] || echo >> userContent.css
+   sed -i '1s/^/@import "firefox-gnome-theme\/userChrome.css";\n/' userChrome.css
+   sed -i '1s/^/@import "firefox-gnome-theme\/userContent.css";\n/' userContent.css
+cd ..
+   ln -fs chrome/firefox-gnome-theme/configuration/user.js user.js
+yay
+clear
+cd Downloads/
+git clone https://github.com/jannikbuscha/firefox-dracula.git
+cd firefox-dracula/
+ls
+cd
+clear
+yay firefox-gnome-theme
+cat /usr/share/doc/firefox-gnome-theme/INSTALL.md
+less /usr/share/doc/firefox-gnome-theme/INSTALL.md
+curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
+yay
+clear
+yay kde
+yay kde-system
+yay plasma-meta
+yay kvantum
+adsf
+clear
+yay bismuth
+yay kwin
+clear
+yay -R gnome gnome-extra
+yay
+clear
+yay
+yay hyprland
+yay hyprland-protocols glaze uwsm
+yay hyprland-protocols
+yay glazw
+yay glaze
+yay uwsm
+yay kitty
+yay waybar
+yay wofi
+yay nm-applet
+yay hyprpaper
+waybar
+yay hyprpaper
+yay wofi
+firefox
+nvim ./.config/hypr/hyprland.conf 
+yay fontawesome
+nvim .config/kitty/
+nvim .config/hypr/hyprland.conf 
+localectl
+nvim .config/hypr/hyprland.conf 
+nvim .config/hypr/hyprland.conf 
+nvim .config/hypr/hyprland.conf 
+yay lxappearance
+ls .config/
+cd .config/
+mkdir waybar
+pkill waybar && hyprctl dispatch exec waybar 
+pkill waybar && hyprctl dispatch exec waybar 
+cd waybar/
+ls
+nvim style_sway.css 
+mv style_sway.css style.css
+pkill waybar && hyprctl dispatch exec waybar 
+nvim config 
+pkill waybar && hyprctl dispatch exec waybar 
+nvim config 
+pkill waybar && hyprctl dispatch exec waybar 
+nvim config 
+pkill waybar && hyprctl dispatch exec waybar 
+nvim config 
+pkill waybar && hyprctl dispatch exec waybar 
+yay flameshot
+yay -R flameshot
+clear
+slurp | grim -g - screenshot.png
+yay grim
+yay slurp
+slurp | grim -g - screenshot.png
+wofi --term
+wofi --show run
+man slurp
+wifi-menu 
+wpctl 
+wpctl status
+iw
+yay iw
+iw 
+iw wlan0 info
+yay feh
+yay scrot
+yay maim
+upower -e
+hyprctl notify -1 10000 "rgb(ff1ea3)" "Hello everyone!"
+nvim .config/hypr/hyprland.conf 
+yay sway
+yay -Si sway
+yay -S swaybar swaylock swayidle swaybg polkit foot brightnessctl libpulse i3status
+clear
+yay noto-emoji-fonts
+yay noto-emoji-font
+yay noto-fonts-emoji
+clear
+lspci
+lshw
+yay lshw
+lshw
+swaymsg -t get_inputs
+ls /etc/sway/config
+cp /etc/sway/config .config/sway/
+mkdir .config/sway
+cp /etc/sway/config .config/sway/
+nvim .config/sway/config 
+nvim .config/sway/config 
+yay sway-disable-titlebar
+nvim .config/sway/config 
+nvim .config/sway/config 
+nvim .config/sway/config 
+nvim .config/sway/config 
+cd .config/waybar/
+ls
+mv config old_config
+mv style.css old_style
+mv old_style old_style.css
+nvim config
+cat .cache/wal/sequences 
+ls
+ls -la
+nvim .bashrc
+man 5 sway-bar 
+yay pywal
+wal 
+wal --theme
+wal --theme base16-nord
+wal --theme solarized
+nvim .bashrc
+cat .cache/wal/colors-tty.sh 
+vimdot 
+nvim .bashrc 
+nvim .config/neovim/config
+mkdir .config/neovim
+cd .config/neovim/
+nvim init.vim
+nvim
+nvim init.vim 
+nvim
+mkdir ../nvim
+mv init.vim ../nvim/init.vim
+cd ../nvim/
+rm ../neovim/
+rm -rf ../neovim/
+nvim 
+mkdir autoload
+curl -o https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -o plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+ls
+mv plug.vim autoload/
+nvim
+nvim init.vim 
+nvim init.vim 
+nvim init.vim 
+nvim init.vim 
+nvim init.vim 
+nvim init.vim 
+nvim init.vim 
+nvim init.vim 
+cd
+cat .cache/wal/colors-wal.vim
+nvim 
+nvim .config/waybar/config 
+cd .cache/wal/
+ls
+cp colors-waybar.css ~/.config/waybar/style.css
+wal --theme base16-nord
+wal --theme solarized
+wal --theme base16-nord
+wal --theme solarized
+vim 
+cd
+nvim .bashrc
+cat .cache/wal/colors-waybar.css 
+yay fontawesome
+yay otf-
+yay otf-font-awesome
+yay
+pip install pynvim
+yay pip
+python3 --version
+curl -o get-pip.py https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py 
+yay python-pip
+pip install pynvim
+yay pynvim
+yay fnm
+npm i -g neovim
+sudo npm i -g neovim
+npm fund
+yay nerd-fonts
+nvim .config/kitty/kitty.conf 
+wal -R
+nvim .config/sway/config 
+nvim .config/nvim/init.vim 
+nvim .config/sway/config 
+yay oomox
+yay oomox
+yay
+yay oomox
+yay oomox
+ls .cache/
+nvim .config/nvim/init.vim 
+nvim .config/nvim/init.lua
+yay laze
+yay lazy
+cd .config/nvim
+mkdir lua/config
+mkdir lua
+mkdir lua/config
+nvim lua/config/lazy.lua
+nvim
+waybar
+ln .cache/wal/colors-waybar.css ~/.config/waybar/colors-waybar.css
+waybar
+vim .cache/wal/colors-waybar.css 
+nvim .cache/wal/colors-waybar.css 
+nvim
+cd .config/nvim/
+ls
+mv init.vim old_init.vim
+nvim
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+pacman -S gnome gnome-extra
+nvim init.lua 
+ls -1F | wofi --show dmenu
+yay
+clear
+nvim .config/sway/config 
+grim
+transmission-gtk 
+yay dunst
+yay -r dunst
+yay -R dunst
+yay avizo
+yay pamixer
+avizo-service
+pgrep avizo-service
+avizo-service &
+nvim
+nvim
+slurp | grim -g - screenshot.png.jjjjjjjjjj
+yay
+yay
+yay
+yay
+yay -R endeavour
+eos-quickstart 
+eos-latest-arch-mirrorlist 
+yay
+pacman -Syyu
+sudo pacman -Syyu
+reflector --help
+cat /etc/pacman.d/mirrorlist 
+vim /etc/pacman.d/mirrorlist 
+nvim /etc/pacman.d/mirrorlist 
+sudo nvim /etc/pacman.d/mirrorlist 
+yay
+clear
+yay
+yay luarocks
+yay latexmk
+yay tree-sitter
+yay biber
+clear
+npm install -g tree-sitter-cli
+sudo npm install -g tree-sitter-cli
+sudo texconfig rehash
+mtexfmt
+yay texlive
+yay texlive-latex
+yay texlive-langswedish
+yay texlive-lang
+cd .config/nvim/
+ls
+cd lua/
+ls
+mkdir plugins
+cd plugins/
+nvim vimtex.lua
+nvim vimtex.lua
+yay zathura
+cd ..
+cd..
+cd ..
+ls
+nvim init.lua 
+nvim init.lua 
+ls
+nvim init.lua 
+yay
+cd 
+ls
+zathura test.pdf 
+yay zathura
+zathura test.pdf 
+yay
+yay
+yay
+yay
+yay
+yay -R plasma
+yay -R plasma-meta
+yay -R plasma
+yay -R lxqt
+yay -R plasma
+yay -R kwin-polonium
+yay -R kio-extras
+yay -R plasma-workspace
+yay -R plasma
+yay -R plasma-desktop
+yay -R plasma
+yay -R kio-extras
+yay -R plasma-workspace
+yay -R kdeplasma-addons
+yay -R plasma-browser-integration
+yay -R plasma-nm
+yay -R gnome
+yay -R gnome-browser-connector-git 
+yay -R gnome-devel-docs 
+yay -R mutter
+yay -R gnome-shell
+yay -R gnome-meta
+ls /mnt/
+lsusb
+lsblk
+lsblk
+udisks
+yay udisks
+udisks2
+lsdev
+ls /dev/
+ls /dev/
+ls /dev/media
+ls /dev/media0
+ls /media
+ls /run/media/
+ls /run/mount/
+lsusb
+ls /dev/
+ls /dev/usb/
+dmesh
+dmesg
+sudo dmesg
+reboot
+yay
+yay
+yay
+clear
+yay
+system
+systemctl status systemd-homed
+su root
+yay
+pacman -S pambase
+sudo pacman -S pambase
+systemctl start systemd-homed
+systemctl start systemd-homed
+systemctl start systemd-homed
+systemctl start systemd-homed
+yay
+nvim .config/nvim/init.lua 
+nvim
+nvim
+yay
+ls
+xdg-open screenshot.png 
+feh
+yay feh
+feh
+feh screenshot.png 
+yay photodemon
+yay gthumb
+yay nsxiv
+slurp | grim -g - screenshot.png
+nsxiv screenshot.png 
+slurp | grim -g - screenshot.png
+slurp | grim -g - screenshot.png
+nvim .config/sway/config 
+yay vimtex
+nvim .config/nvim/init.lua 
+nvim
+nvim
+nvim .config/nvim/init.lua 
+nvim
+nvim .config/nvim/init.lua 
+nvim
+nvim .config/nvim/init.lua 
+yay ripgrep
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+man mv
+mkdir .config/old_nvim
+mv .config/nvim/* .config/old_nvim/
+ls .config/nvim/
+rm -rf .config/nvim
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+nvim
+nvim
+nvim .config/nvim/init.lua 
+clear
+nvim
+nvim .config/nvim/init.lua 
+nvim
+nvim
+nvim
+nvim
+clear
+nvim
+nvim test.tex
+nvim test.tex
+nvim test.tex
+nvim test.tex
+nvim test.tex
+nvim test.tex
+nvim test.tex
+nvim test.tex
+nvim test.tex
+nvim
+nvim
+nvim test.tex
